@@ -109,7 +109,7 @@ color:#E3FDEF;
 }
 a:hover
 {
-color:#99ff66;
+border-bottom: 1px dotted #99ff66;
 }
 h1
 {

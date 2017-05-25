@@ -18,7 +18,7 @@ margin: 0 auto 0 auto;
 text-align:left;}
 #main
 {
-background-image:url(background.png);
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/background.png);
 background-repeat:repeat-y;
 width:640px;
 height:auto;
@@ -26,7 +26,7 @@ margin: 0 auto;
 }
 #header
 {
-background-image:url(header.gif);
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/header.gif);
 background-repeat:no-repeat;
 height:160px;
 width:640px;
@@ -34,7 +34,7 @@ margin-top:35px;
 }
 #content
 {
-background-image:url(contentBack.jpg);
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/contentBack.jpg);
 background-repeat:no-repeat;
 padding:22px;
 height:500px;
@@ -65,7 +65,7 @@ font-family:"Courier New", Courier, monospace;
 #footer {
 clear:both;
 width: 640px;
-background: url(footer.png) no-repeat;
+background: url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/footer.png) no-repeat;
 text-align:center;
 font-size:9px;
 }
@@ -85,7 +85,7 @@ text-align:right;
 width:auto;
 line-height:50px;
 font-size:14px;
-background-image:url(col2_h2_back.gif);
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
 background-repeat:repeat-x;
 }
 #columnTwo ul {
@@ -142,7 +142,7 @@ text-align:justify;
 width:300px;
 color:#EAF4FF;
 padding:12px;
-background-image:url(blockquote.png);
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/blockquote.png);
 background-repeat:no-repeat;
 }
 html, body {

@@ -73,6 +73,7 @@ font-size:9px;
 float: left;
 width: 435px;
 }
+
 #columnTwo
 {
 float:right;
@@ -115,6 +116,8 @@ h1
 {
 line-height:18px;
 font-size:17px;
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
+background-repeat:repeat-x;
 }
 h2
 {

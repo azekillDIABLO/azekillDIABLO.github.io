@@ -147,7 +147,8 @@ blockquote {
     background-repeat:no-repeat;
 }
 hr {
-    color:#E7EB94;
+    background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
+    background-repeat:repeat-x;
 }
 html, body {
 text-align: center;

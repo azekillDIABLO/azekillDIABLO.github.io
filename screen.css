@@ -147,12 +147,7 @@ blockquote {
     background-repeat:no-repeat;
 }
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #E7EB94;
-    margin: 1em 0;
-    padding: 0; 
+    color:#E7EB94;
 }
 html, body {
 text-align: center;

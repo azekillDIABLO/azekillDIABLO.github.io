@@ -102,16 +102,25 @@ font-size:11px;
 font-style:italic;
 padding:10px;
 }
-a
-{
-text-decoration:none;
-color:#E3FDEF;
+/* Effect 15: scale down, reveal */
+a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
 }
-a:hover
-{
-border-bottom: 1px dotted #E7EB94;
-color:#E7EB94;
+
+a::before {
+	color: #fff;
+	content: attr(data-hover);
+	position: absolute;
+	transition: transform 0.3s, opacity 0.3s;
 }
+a:hover::before,
+a:focus::before {
+	transform: scale(0.9);
+	opacity: 0;
+}
+/* Effect 15: end end end */
 h1
 {
 line-height:18px;

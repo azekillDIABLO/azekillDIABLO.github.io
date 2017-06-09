@@ -73,7 +73,6 @@ font-size:9px;
 float: left;
 width: 435px;
 }
-
 #columnTwo
 {
 float:right;
@@ -102,29 +101,22 @@ font-size:11px;
 font-style:italic;
 padding:10px;
 }
-/* Effect 15: scale down, reveal */
-a {
-	color: rgba(0,0,0,0.2);
-	font-weight: 700;
-	text-shadow: none;
+a
+{
+text-decoration:none;
+color:#E3FDEF;
 }
-
-a::before {
-	color: #fff;
-	content: attr(data-hover);
-	position: absolute;
-	transition: transform 0.3s, opacity 0.3s;
+a:hover
+{
+border-bottom: 1px dotted #E7EB94;
+color:#E7EB94;
 }
-a:hover::before,
-a:focus::before {
-	transform: scale(0.9);
-	opacity: 0;
-}
-/* Effect 15: end end end */
 h1
 {
 line-height:18px;
 font-size:17px;
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
+background-repeat:repeat-x;
 }
 h2
 {
@@ -147,18 +139,18 @@ padding:2px;
 margin-bottom:15px;
 }
 blockquote {
-    font-size:10px;
-    text-align:justify;
-    width:300px;
-    color:#EAF4FF;
-    padding:12px;
-    background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/blockquote.png);
-    background-repeat:no-repeat;
+font-size:10px;
+text-align:justify;
+width:300px;
+color:#EAF4FF;
+padding:12px;
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/blockquote.png);
+background-repeat:no-repeat;
 }
 hr {
-    background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
-    background-repeat:repeat-x;
-    color:#00802b;
+background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/col2_h2_back.gif);
+background-repeat:repeat-x;
+color:#00802b;
 }
 html, body {
 text-align: center;

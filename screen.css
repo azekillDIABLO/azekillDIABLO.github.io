@@ -156,4 +156,14 @@ color:#00802b;
 html, body {
 text-align: center;
 }
-p {text-align: left;}
+p {
+text-align: left;
+}
+button {
+position:relative;
+color:#FAFCF3;
+text-align:center;
+font-size:14px;
+font-family:"Courier New", Courier, monospace;
+background-color:#EAF4FF;
+}

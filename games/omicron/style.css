@@ -1,0 +1,77 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+@font-face{
+	font-family: "pixeltype";
+	src: url('pixeltype.ttf'),
+}
+	
+body {
+	font-family: pixeltype;
+	line-height: 1.1;
+	color: #fefefe; 
+	background: url(back.png); 
+	background-size: cover;
+	margin: 85; 
+	padding: 85;
+	}
+button {
+	font-family: pixeltype;
+	font-size: 200%;
+	color: #fefefe; 
+	background: url(back.png); 
+	background-size: cover;
+	margin: 85; 
+	padding: 85;
+	}
+button:hover {
+	font-family: pixeltype;
+	font-size: 200%;
+	color: #fefe95; 
+	background: url(back.png); 
+	background-size: cover;
+	margin: 85; 
+	padding: 85;
+}
+	
+h1, h2, h3 { 
+	font-family: pixeltype;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #fefefe;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#fefefe;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #fefefe;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #fefe95;
+	}
+
+#col1
+{
+float: left;
+width: 435px;
+text-align:right;
+margin: 12; 
+}
+#col2
+{
+padding: 105;
+margin: 10; 
+float:right;
+text-align:left;
+background:rgba(20,25,45,0.5);
+border-left-style: dotted;
+border-width: 1px;
+width: 625px;
+}

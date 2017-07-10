@@ -10,12 +10,13 @@ html {
 	
 body {
 	font-family: pixeltype;
-	line-height: 1.1;
+	line-height: 1.2;
 	color: #fefefe; 
 	background: url(back.png); 
 	background-size: cover;
 	margin: 85; 
 	padding: 85;
+	font-size: 120%;
 	width:1065px;
 	}
 button {

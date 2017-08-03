@@ -99,9 +99,9 @@ margin-bottom:4px;
 div.scroll {
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
-    width: 440px;
+    width: 430px;
     height: 260px;
-    overflow: scroll;
+    overflow: auto;
 }
 .comments
 {

@@ -96,14 +96,13 @@ list-style: none;
 #columnTwo li {
 margin-bottom:4px;
 }
-#scroll {
-    width: 500pix;
-    height: 100pix;
+div.scroll {
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
-    padding: 3pix;
+    width: 440px;
+    height: 260px;
     overflow: scroll;
-  }
+}
 .comments
 {
 font-size:11px;

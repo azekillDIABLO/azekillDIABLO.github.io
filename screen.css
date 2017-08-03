@@ -97,12 +97,11 @@ list-style: none;
 margin-bottom:4px;
 }
 #scroll {
-    width: 600pix;
+    width: 500pix;
     height: 100pix;
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
     padding: 3pix;
-    margin: auto;
     overflow: scroll;
   }
 .comments

@@ -96,7 +96,7 @@ list-style: none;
 #columnTwo li {
 margin-bottom:4px;
 }
-#scroll {
+scroll {
     width: 600pix;
     height: 200pix;
     font-size: 10pix;

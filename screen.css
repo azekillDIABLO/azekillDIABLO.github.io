@@ -98,12 +98,12 @@ margin-bottom:4px;
 }
 scroll {
     width: 600pix;
-    height: 200pix;
+    height: 100pix;
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
     padding: 3pix;
     margin: auto;
-    overflow: auto;
+    overflow: scroll;
   }
 .comments
 {

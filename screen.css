@@ -103,6 +103,7 @@ div.scroll {
     width: 430px;
     height: 280px;
     overflow: auto;
+    padding:5px;
 }
 .comments
 {

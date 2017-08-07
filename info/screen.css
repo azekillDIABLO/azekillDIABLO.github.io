@@ -14,7 +14,8 @@ background-color:#03341B;
 *
 {
 margin: 0 auto 0 auto;
-text-align:left;}
+text-align: justify;
+text-justify: inter-word;}
 #main
 {
 background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/background.png);
@@ -64,7 +65,8 @@ font-family:"Courier New", Courier, monospace;
 #footer {
 clear:both;
 width: 640px;
-background: url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/footer.png) no-repeat;
+background-image: url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/footer.png);
+background-repeat:no-repeat;
 text-align:center;
 font-size:9px;
 }
@@ -94,6 +96,13 @@ list-style: none;
 }
 #columnTwo li {
 margin-bottom:4px;
+}
+div.scroll {
+    font-size: 10pix;
+    font-family:"Courier New", Courier, monospace;
+    width: 430px;
+    height: 260px;
+    overflow: auto;
 }
 .comments
 {
@@ -155,4 +164,14 @@ color:#00802b;
 html, body {
 text-align: center;
 }
-p {text-align: left;}
+p {
+text-align: left;
+}
+button {
+position:relative;
+color:#FAFCF3;
+text-align:center;
+font-size:14px;
+font-family:"Courier New", Courier, monospace;
+background-color:#EAF4FF;
+}

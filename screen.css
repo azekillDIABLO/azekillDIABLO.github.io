@@ -1,5 +1,6 @@
 html, body {
-text-align: center;
+text-align: justify;
+text-justify: inter-word;
 }
 p {text-align: left;}
 body {

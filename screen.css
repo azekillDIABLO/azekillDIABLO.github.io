@@ -14,7 +14,8 @@ background-color:#03341B;
 *
 {
 margin: 0 auto 0 auto;
-text-align:left;}
+text-align: justify;
+text-justify: inter-word;}
 #main
 {
 background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/background.png);

@@ -101,7 +101,7 @@ div.scroll {
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
     width: 430px;
-    height: 280px;
+    height: 275px;
     overflow: auto;
     padding:5px;
 }

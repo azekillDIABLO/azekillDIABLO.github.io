@@ -100,8 +100,9 @@ div.scroll {
     font-size: 10pix;
     font-family:"Courier New", Courier, monospace;
     width: 430px;
-    height: 660px;
+    height: 700px;
     overflow: auto;
+    margin: 5;
 }
 .comments
 {

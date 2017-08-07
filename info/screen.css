@@ -160,12 +160,6 @@ background-image:url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIAB
 background-repeat:repeat-x;
 color:#00802b;
 }
-html, body {
-text-align: center;
-}
-p {
-text-align: left;
-}
 button {
 position:relative;
 color:#FAFCF3;

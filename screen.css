@@ -170,3 +170,11 @@ font-size:14px;
 font-family:"Courier New", Courier, monospace;
 background-color:#006600;
 }
+
+textarea {
+position:relative;
+color:#FAFCF3;
+font-size:11px;
+font-family:"Courier New", Courier, monospace;
+background-color:#006600;
+}

@@ -179,7 +179,7 @@ font-family:"Courier New", Courier, monospace;
 background-color:#006600;
 }
 
-option {
+select, option {
 color:#FAFCF3;
 font-family:"Courier New", Courier, monospace;
 background-color:#006600;

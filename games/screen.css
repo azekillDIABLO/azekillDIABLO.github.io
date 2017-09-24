@@ -64,11 +64,12 @@ font-family:"Courier New", Courier, monospace;
 #footer {
 clear: both;
 width: 640px;
-height:6px;
+height:46px;
 background-image: url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/footer.png);
 background-repeat:no-repeat;
 text-align:center;
 font-size:9px;
+margin-bottom:25px;
 }
 #columnOne
 {

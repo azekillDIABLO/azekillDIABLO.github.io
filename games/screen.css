@@ -62,8 +62,9 @@ font-weight:bold;
 font-family:"Courier New", Courier, monospace;
 }
 #footer {
-clear:both;
+clear: both;
 width: 640px;
+height:6px;
 background-image: url(https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/footer.png);
 background-repeat:no-repeat;
 text-align:center;

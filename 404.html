@@ -28,7 +28,7 @@ permalink: /404.html
 </div>
 </div>
 
-<div id="columnTwo">
+    <div id="columnTwo">
 	<h2>Cool Links</h2>
 	<div class="links">
 	<ul>
@@ -39,16 +39,64 @@ permalink: /404.html
 	</ul>
 	</div>
 	<h2>Small poll</h2>
-	   <form method="post" action="http://poll.pollcode.com/66998949"><div style="background-color:#1B9E00;padding:2px;width:135px;font-family:Courier New;font-size:small;color:#FFFFFF;box-shadow: 0px 0px 5px #888;"><div style="padding:2px 0px 4px 2px;"><strong>Do you like this?</strong></div><div align="center" style="padding-bottom:5px;"><select name="answer"><option value="1">Yes sure!</option><option value="2">Maybe.</option><option value="3">I'm not sure.</option></select></div><div align="center" style="padding:3px;"><input type="submit" value=" Vote "> <input type="submit" name="view" value=" View "></div></div></form>
+	   <form method="post" action="http://poll.pollcode.com/66998949"><div style="background-color:#1B9E00;padding:2px;width:140px;font-family:Courier New;font-size:10;color:#FFFFFF;box-shadow: 0px 0px 3px #888;"><div style="padding:2px 0px 4px 2px;"><strong class="poll-box">Do you like this?</strong></div><div align="center" style="padding-bottom:5px;" class="poll-box"><select name="answer"><option value="1">Yes sure!</option><option value="2">Maybe.</option><option value="3">I'm not sure.</option></select></div><div align="center" style="padding:3px;" class="poll-box"><input type="submit" value="Vote"> <input type="submit" name="view" value="View"></div></div></form>
 	<h2>Ambiance Music</h2>
-	   <div data-video="M6Kq2ap9yys"
+	 <div data-video="M6Kq2ap9yys"
 		data-autoplay="1"
-		data-loop="100"
+		data-loop="-1"
 		id="youtube-audio">
 	   </div>
 	<script src="https://www.youtube.com/iframe_api"></script>
-	<script src="https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/script.js"></script>
-	<p>Click to toggle it</p>    
+	<script>var player;
+			  function onYouTubeIframeAPIReady() {
+
+			    var ctrlq = document.getElementById("youtube-audio");
+			    ctrlq.innerHTML = '<img id="youtube-icon" src=""/><div id="youtube-player"></div>';
+			    ctrlq.style.cssText = 'width:150px;margin:3pix auto;cursor:pointer;cursor:hand;display:none';
+			    ctrlq.onclick = toggleAudio;
+
+			    player = new YT.Player('youtube-player', {
+				height: '0',
+				width: '0',
+				videoId: ctrlq.dataset.video,
+				playerVars: {
+				  autoplay: ctrlq.dataset.autoplay,
+				  loop: ctrlq.dataset.loop,
+				},
+				events: {
+				  'onReady': onPlayerReady,
+				  'onStateChange': onPlayerStateChange 
+				} 
+			    });
+			  } 
+
+			  function togglePlayButton(play) {    
+			    document.getElementById("youtube-icon").src = play ? "https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/play.gif" : "https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/pause.png";
+			  }
+
+			  function toggleAudio() {
+			    if ( player.getPlayerState() == 1 || player.getPlayerState() == 3 ) {
+				player.pauseVideo(); 
+				togglePlayButton(false);
+			    } else {
+				player.playVideo(); 
+				togglePlayButton(true);
+			    } 
+			  } 
+
+			  function onPlayerReady(event) {
+			    player.setPlaybackQuality("small");
+			    document.getElementById("youtube-audio").style.display = "block";
+			    togglePlayButton(player.getPlayerState() !== 5);
+			  }
+
+			  function onPlayerStateChange(event) {
+			    if (event.data === 0) {
+				togglePlayButton(false); 
+			    }
+			  }
+	</script>
+
 	<h2>Friends sites</h2>
 	<a href="http://mineyoshist.me.la/">
 	<img src="https://forum.minetest.net/download/file.php?avatar=18091_1491067449.gif" alt="Mineyoshi's website" style="width:70px;height:70px;border:1;">
@@ -64,11 +112,11 @@ permalink: /404.html
 	</a>
 	<h2>Advertissment</h2>
 	<a href="https://forum.minetest.net/viewtopic.php?f=50&t=14571">
-	<img src="https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/ezgif-3-4cd7f139db.gif" alt="REGNUM ad" style="width:145px;height:145px;border:1;">
+	<img src="https://raw.githubusercontent.com/azekillDIABLO/azekillDIABLO.github.io/master/img_ad.gif" alt="REGNUM ad" style="width:145px;height:145px;border:1;">
 	</a>
 	</div>
-</div>
-<div id="footer"><a href="http://license-freewing-v01.simplesite.com/">This website is under Freewing License</a></div>
-</div>
+	</div>
+		<div id="footer"><a href="http://license-freewing-v01.simplesite.com/">This website is under Freewing License</a></div>
+	</div>
 </body>
 </html>

@@ -82,6 +82,7 @@ width: 435px;
 float:right;
 width: 150px;
 text-align:right;
+height: 435px;
 }
 #columnTwo h2
 {
@@ -168,9 +169,13 @@ button, input {
 position:relative;
 color:#FAFCF3;
 text-align:center;
-font-size:14px;
+font-size:12px;
 font-family:"Courier New", Courier, monospace;
 background-color:#006600;
+}
+
+.poll-box {
+	text-align:center;
 }
 
 textarea {

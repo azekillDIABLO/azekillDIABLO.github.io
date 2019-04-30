@@ -22,29 +22,46 @@
 	    <h1>Welcome, dear user!</h1>
 	    <hr>
         <div class="content">
-   	<p>Hi, I'm azekill_DIABLO and I'm an open-source developper. I love to create games, mods and textures (which is not programming, this said)! But I also love to discover new things and that why I created this site: to train me in HTML and CSS (and some javascript) but also to share my games in a nice little place... Enjoy! :D
-  	</p>
-	<h3><a href="https://azekilldiablo.github.io/info">➲ Click here to know more!</a></h3>
+   	     <!-- Slideshow container -->
+		<div class="slideshow-container">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade">
+		    <img src="pause.png" style="height: 300px;">
+		    <div class="text">Mese power!</div>
+		     <div class="numbertext">1 / 3</div>
+		  </div>
+
+		  <div class="mySlides fade">
+		    <img src="play.gif" style="height: 300px;">
+		    <div class="text">Matrix</div>
+		    <div class="numbertext">2 / 3</div>		    
+		  </div>
+
+		  <div class="mySlides fade">
+		    <img src="ezgif-3-4cd7f139db.gif" style="height: 300px;">
+		    <div class="text">Stunning</div>
+		    <div class="numbertext">3 / 3</div>
+		  </div>
+		  
+		<script>var slideIndex = 0;
+			showSlides();
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";
+			    }
+			    slideIndex++;
+			    if (slideIndex > slides.length) {slideIndex = 1}
+			    slides[slideIndex-1].style.display = "block";
+			    setTimeout(showSlides, 4000); // Change image every 4 seconds
+			} 
+		</script>
+		</div>
         </div>
-	     <h1>My games and more!</h1>
-	     <hr>
-        <div class="content">
-        <a href="https://azekill-diablo.itch.io/behind-the-retina">
-        <img src="https://img.itch.zone/aW1hZ2UvODg0NzYvNDE1ODAzLnBuZw==/original/yCiFpk.png" alt="Behind the Retina" style="width:100px;height:100px;border:1;">
-        </a>
-	<a href="https://forum.minetest.net/viewtopic.php?f=50&t=14115">
-        <img src="http://i.share.pho.to/8bddb41b_m.jpeg" alt="Voxellar" style="width:100px;height:100px;border:1;">
-        </a> 
-	<a href="https://forum.minetest.net/viewtopic.php?f=50&t=14631">
-        <img src="https://forum.minetest.net/download/file.php?mode=view&id=6293" alt="VOXBOX" style="width:100px;height:100px;border:1;">
-        </a> 
-	<a href="https://forum.minetest.net/viewtopic.php?f=50&t=17122">
-        <img src="https://forum.minetest.net/download/file.php?mode=view&id=9733&sid=3d5e21df5ff41808b65a02a96da3de79" alt="BB;HD" style="width:100px;height:100px;border:1;">
-        </a><small></small>	
-	<h3><a href="games">➲ View more in the gallery...</a></h3>
-	<h1>Site looks like a total mess?</h1>
-	<hr>
-	<p>Well, it's probably because you're using an unsupported browser. This website has problem with old browser and needs up-to-date javascript. Looks bad under some linux. Sorry.</p>
+	
+      <div class="content">
 	<h1>News and Feedback!</h1>
 	<hr>
 	<div class="scroll">
@@ -71,7 +88,7 @@
 	<h2>Ambiance Music</h2>
 	 <div data-video="M6Kq2ap9yys"
 		data-autoplay="1"
-		data-loop="100"
+		data-loop="1"
 		id="youtube-audio">
 	   </div>
 	<script src="https://www.youtube.com/iframe_api"></script>

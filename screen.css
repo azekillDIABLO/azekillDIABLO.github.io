@@ -107,7 +107,22 @@ div.scroll {
     height: 272px;
     overflow: auto;
     padding:5px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  
 }
+
+div.scroll-long {
+    font-size: 10pix;
+    font-family:"Courier New", Courier, monospace;
+    width: 430px;
+    height: 646px;
+    overflow: auto;
+    padding:5px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  
+
+}
+
 .comments
 {
 font-size:11px;

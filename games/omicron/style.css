@@ -68,7 +68,7 @@ a:visited {
 	text-decoration: none; 
 	color: black;
 }
-a:link:hover, a:link:focus, a:link:active { 
+a:hover, a:focus, a:active { 
 	text-decoration: none; 
 	color:white;
 	background:rgba(0,0,0,1);

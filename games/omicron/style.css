@@ -4,8 +4,13 @@ html {
 	padding: 0;
 }
 @font-face {
-	font-family: "pixeltype";
-	src: url('pixeltype.ttf'),
+	font-family: 'pixeltype';
+	src: url('pixeltype-webfont.eot');
+	src: url('pixeltype-webfont.eot?#iefix') format('embedded-opentype'),
+		url('pixeltype-webfont.woff2') format('woff2'),
+		url('pixeltype-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 li {

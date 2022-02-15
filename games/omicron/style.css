@@ -26,7 +26,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2em;
-	width: 27em;
+	width: 30em;
 	height: 20em;
 }
 button {
@@ -126,7 +126,7 @@ a:hover, a:focus, a:active {
 }
 
 #col2 {
-	float:left;
+	float: left;
 	width: 20em;
 	height: 20em;
 	overflow: auto;

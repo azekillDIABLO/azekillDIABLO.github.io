@@ -46,7 +46,7 @@ button:hover {
 	font-size: 100%;
 	color: white;
 	background:rgba(0,0,0,1);
-	margin-left: -1px;
+	margin-left: 0px;
 	border-style: solid;
 	border-color: black;
 	border-width: 1px;
@@ -127,7 +127,7 @@ a:hover, a:focus, a:active {
 
 #col2 {
 	float:left;
-	width: 19em;
+	width: 20em;
 	height: 20em;
 	overflow: auto;
 	scrollbar-width: none;
